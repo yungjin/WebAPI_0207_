@@ -36,6 +36,7 @@ namespace WebApplication
             }
 
             app.UseMvc();
+            app.UseStaticFiles(); //wwwroot 페이지를 이용 정적파일 확장명 사용하도록 하는것
         }
     }
 }
